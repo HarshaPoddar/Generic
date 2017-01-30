@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace genericAssignment
+namespace GenericAssignment
 {
-    class Program
+    class Generic
     {
         public static void Main(string[] args)
         {

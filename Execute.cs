@@ -9,21 +9,21 @@ namespace GenericAssignment
     class Mycollection<T>
     {
         public T[] list = new T[10];
-        public T this[int i]
+        public T this[int index]
         {
             get
             {
-                if (i < 0 && i > -10)
+                if (index < 0 && index > -10)
                     return list[9];
                 else
-                    return list[i];
+                    return list[index];
                 
             }
             set
             {
-                if (i >= 0 && i <=10)
+                if (index >= 0 && index <= 10)
                 {
-                    list[i] = value;
+                    list[index] = value;
                 }
                 else if (i < 0 && i > -10)
                 {

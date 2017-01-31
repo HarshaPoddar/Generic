@@ -15,12 +15,8 @@ namespace GenericAssignment
        
             Console.WriteLine("Enter the 10 values: ");
             for (int counter = 0; counter < 10; counter++)
-            {
-
-                items[counter] =Convert.ToInt16(Console.ReadLine());
-            }
+            items[counter] =Convert.ToInt16(Console.ReadLine());
             
-
             Console.WriteLine("Enter the index of the item to be displayed");
             int index = Convert.ToInt16(Console.ReadLine());
             
